@@ -3,8 +3,8 @@ import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
 function Output(props) {
   return (
-    <div>
-      <ReactMarkdown>{props.output}</ReactMarkdown>
+    <div className="outputSide">
+      <ReactMarkdown className="markDown">{props.output}</ReactMarkdown>
     </div>
   );
 }

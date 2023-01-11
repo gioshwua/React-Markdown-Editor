@@ -2,8 +2,9 @@ import React from "react";
 
 function Input(props) {
   return (
-    <div>
-      <textArea
+    <div className="inputSide">
+      <textarea
+        autoFocus
         onChange={props.input}
         placeholder={props.placeholder}
         value={props.value}
