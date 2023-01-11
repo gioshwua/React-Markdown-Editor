@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,400&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Poppins, Arial;
 }
 
 .app {
@@ -14,7 +17,17 @@
   overflow-x: hidden;
 }
 .app > h1 {
+  color: white;
+  text-align: center;
+  width: 100%;
   padding: 20px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 .content {
   display: flex;
@@ -28,8 +41,8 @@
   width: 50%;
 }
 .outputSide {
-  background-color: yellow;
   width: 50%;
+  background-color: #e5f5f8;
 
   padding: 20px;
 }
