@@ -14,7 +14,7 @@ function App() {
       <div className="content">
         <Input
           input={inputtedSomething}
-          placeholder="TYPE YOUR MARKDOWN HERE ->"
+          placeholder="TYPE YOUR MARKDOWN HERE "
           value={markdown}
         />
         <Output output={markdown} />
